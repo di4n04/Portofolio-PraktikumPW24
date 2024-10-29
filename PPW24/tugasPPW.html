@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Beranda</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-brown sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portofolio Saya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+              
+                    <!-- Bagian Perkenalan -->
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center intro-section">
+        <div class="row w-100">
+            <div class="col-md-6 d-flex flex-column align-items-start justify-content-center text-content">
+                    <p class="intro-text baris1">Hi there! I’m<b style="color: rgb(252, 216, 181);"> Dian Cynthia</b></p>
+                    <p class="intro-text baris2">A <b style="color: rgb(244, 183, 70);">Web Design Enthusiast </b>on a mission to transform ideas into captivating digital experiences.</p>
+                    <p class="intro-text baris3">Let’s<b style="color: rgb(218, 91, 0);"> collaborate</b> and bring your next project to life!</p>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="abstract-container">
+                    <img src="asets/d10.jpg" alt="Dian" class="abstract-image">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+        
+           <!-- Bagian Portfolio dengan Carousel -->
+    <section id="portfolio" class="portfolio-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">About Me</h2>
+            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- 1 -->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="card-item">
+                                <img src="asets/d8.jpg" class="card-img-top" alt="me 1">
+                                <div class="card-body">
+                                    <p class="card-text">I believe every design should carry a sense of beauty. For me, aesthetics isn’t just about looks—it’s about creating delightful user experiences too.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card-item">
+                                <img src="asets/d11.jpg" class="card-img-top" alt="me 2">
+                                <div class="card-body">
+                                    <p class="card-text">I love the freedom to express myself and work on my own terms. Web design gives me the flexibility to create without limits and enjoy working from anywhere, especially when traveling.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card-item">
+                                <img src="asets/d7.jpg" class="card-img-top" alt="me 3">
+                                <div class="card-body">
+                                    <p class="card-text">One of my biggest dreams is to travel the world. Every journey inspires me with new perspectives and ideas that I bring into my design projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card-item">
+                                <img src="asets/d3.jpg" class="card-img-top" alt="me 4">
+                                <div class="card-body">
+                                    <p class="card-text">I enjoy exploring the ever-evolving digital world and am always eager to learn new things. For me, every project is a chance to grow and discover the latest trends and techniques.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="card-item">
+                                <img src="asets/d2.jpg" class="card-img-top" alt="me 5">
+                                <div class="card-body">
+                                    <p class="card-text">I’m not a fan of complicated things. Both in life and design, I believe simplicity is essential. That’s why I strive to create designs that are clean, functional, and impactful.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tombol Navigasi Carousel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Sebelumnya</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Berikutnya</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+  
+  <!-- Bagian Kontak -->
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 section-title">Hubungi Saya</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p class="contact-info">portofoliodian@email.com</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Telepon</h3>
+                    <p class="contact-info">+62 82241402120</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Media Sosial</h3>
+                    <p class="contact-info">Instagram: @diancynthia</p>
+                    <p class="contact-info">LinkedIn: linkedin.com/in/dian</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form action="#" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- JS -->
+<script>
+  // JavaScript untuk menambahkan animasi saat halaman dibuka
+window.onload = function () {
+    const profileImage = document.querySelector('.profile-image');
+    profileImage.classList.add('animate');
+};
+
+// Menambahkan animasi teks saat halaman dibuka
+window.onload = function () {
+    const texts = document.querySelectorAll('.reveal-text');
+    texts.forEach((text, index) => {
+        setTimeout(() => {
+            text.classList.add('visible');
+        }, index * 300);
+    });
+};
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
